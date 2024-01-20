@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Zenin-TestHub:build:production"
+              "buildTarget": "Zenin-TestHub:build:production"
             },
             "development": {
-              "browserTarget": "Zenin-TestHub:build:development"
+              "buildTarget": "Zenin-TestHub:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Zenin-TestHub:build"
+            "buildTarget": "Zenin-TestHub:build"
           }
         },
         "test": {
