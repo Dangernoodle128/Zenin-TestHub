@@ -1,0 +1,21 @@
+<div class="main" >
+  <div class="background" fxFlex="100%">
+    <div class="heading" fxLayout="column" fxLayoutAlign="start center">
+      <span>Join with us at this instant !!!</span>
+      <svg class="underlines" fill="rgb(219, 221, 218)" viewBox="0 0 100 5" height="10" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"><path d="M -1 -1 Q 41 2 104 4 Q 57 7 8 5" stroke-width="0.18em"></path></svg>
+      <button style="margin-top: 50px;" routerLink="/home">HOME</button>
+    </div>
+    <div class="slideShow">
+      <div class="login" fxLayoutAlign="center center">
+        <div class="inputs" fxLayoutAlign="center center" fxLayout="column" fxLayoutGap="0px">
+          <app-input class="matInputs" type="email" placeholder="Enter your Email"></app-input>
+          <app-input class="matInputs" type="password" placeholder="Password"></app-input>
+          <button>SIGN UP</button>
+          <span class="signup">(or)</span>
+          <span class="signup">Already joined with us before? <a [routerLink]="['/login']" routerLinkActive="router-link-active" >Sign In</a></span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
